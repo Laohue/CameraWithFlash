@@ -40,7 +40,7 @@ export default function App() {
     if(image) {
       try{
         await MediaLibrary.createAssetAsync(image);
-        alert('Picture save! 😛😛')
+        alert('Picture saved!! ')
         setImage(null);
       } catch(e) {
         console.log(e)
