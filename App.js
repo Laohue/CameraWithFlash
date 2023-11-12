@@ -1,9 +1,8 @@
 import { React, useState, useEffect, useRef } from "react";
-import { StyleSheet, Text, View, Image, SafeAreaView, ActivityIndicator, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image} from 'react-native';
 import  { Camera, CameraType } from 'expo-camera';
 import * as MediaLibrary from 'expo-media-library';
 import Button from "./src/components/button.js";
-import Torch from 'react-native-torch';
 
 export default function App() {
   const [hasCameraPermission, setHasCameraPermission] = useState(null);
